@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+brotli = "*"
+c-ares = "*"
+ca-certificates = "*"
+certifi = "*"
+gdbm = "*"
+icu4c = "*"
+jupyterlab = "*"
+libnghttp2 = "*"
+libsodium = "*"
+libuv = "*"
+libyaml = "*"
+mpdecimal = "*"
+node = "*"
+openssl = "*"
+pandoc = "*"
+pipenv = "*"
+pyinstaller = "*"
+python-tk = "*"
+python = "*"
+readline = "*"
+sqlite = "*"
+tcl-tk = "*"
+xz = "*"
+zeromq = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
