@@ -4,6 +4,7 @@ class Animal:
     def __init__(self, name, age):
         self.name = name
         self.age = age
+        self.__age = age # ----> (Private) can not access Directly
 
     #Instance Method
     def get_age(self):
@@ -38,6 +39,7 @@ dog2 = Dog("Charlie", 5)
 #Object of the Cat class
 cat1 = Cat("Buddy", 3)
 cat2 = Cat("Charlie", 5)
+print(f"age - {cat1.age}")
 
 #Accessing attributes & methods
 print(dog1.bark())
